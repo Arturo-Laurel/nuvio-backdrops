@@ -1,11 +1,35 @@
 {
+  "00s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/00s-movies.webp"
+  },
+  "1001 Movies You Must See": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/1001-movies-you-must-see.webp"
+  },
   "10s Movies": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/10s-movies.webp"
   },
+  "20s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/20s-movies.webp"
+  },
   "20th Century Studios": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/20th-century-studios.webp"
+  },
+  "70s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/70s-movies.webp"
+  },
+  "80s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/80s-movies.webp"
+  },
+  "90s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/90s-movies.webp"
   },
   "A Nightmare on Elm Street": {
     "heroBackdropMode": "static",
@@ -155,6 +179,10 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/cannes-film-festival-awards.webp"
   },
+  "Certified Fresh Releases": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/certified-fresh-releases.webp"
+  },
   "Channing Tatum": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/channing-tatum.webp"
@@ -251,6 +279,10 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/disney.webp"
   },
+  "Disney+ Live Action Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/disney-live-action-movies.webp"
+  },
   "Documentary": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/documentary.webp"
@@ -270,6 +302,14 @@
   "Dwayne Johnson": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dwayne-johnson.webp"
+  },
+  "Eberhoferkrimis": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/eberhoferkrimis.webp"
+  },
+  "Echoes of Reality": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/echoes-of-reality.webp"
   },
   "Emma Stone": {
     "heroBackdropMode": "static",
@@ -507,6 +547,14 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/leonardo-dicaprio.webp"
   },
+  "Letterboxd's Top 250 Horror": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/letterboxd-s-top-250-horror.webp"
+  },
+  "Letterboxd's Top 500": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/letterboxd-s-top-500.webp"
+  },
   "Lily Collins": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/lily-collins.webp"
@@ -571,6 +619,10 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/meryl-streep.webp"
   },
+  "Metacritic's Must See": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/metacritic-s-must-see.webp"
+  },
   "Metro-Goldwyn-Mayer": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/metro-goldwyn-mayer.webp"
@@ -587,6 +639,10 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/millie-bobby-brown.webp"
   },
+  "Mindgame Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mindgame-movies.webp"
+  },
   "Miramax": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/miramax.webp"
@@ -595,9 +651,21 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mission-impossible.webp"
   },
+  "Monsterverse": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/monsterverse.webp"
+  },
   "Morgan Freeman": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/morgan-freeman.webp"
+  },
+  "Movies Everyone Should Watch": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/movies-everyone-should-watch.webp"
+  },
+  "Movies That Leave You Changed": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/movies-that-leave-you-changed.webp"
   },
   "Murder Mystery": {
     "heroBackdropMode": "static",
@@ -698,6 +766,10 @@
   "Psycho": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/psycho.webp"
+  },
+  "Pure WTF": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/pure-wtf.webp"
   },
   "Quarantine": {
     "heroBackdropMode": "static",
@@ -847,9 +919,17 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-avengers.webp"
   },
+  "The Billion-Dollar Club": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-billion-dollar-club.webp"
+  },
   "The Bourne": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-bourne.webp"
+  },
+  "The Conjuring Universe": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-conjuring-universe.webp"
   },
   "The Criterion Channel": {
     "heroBackdropMode": "static",
@@ -935,6 +1015,10 @@
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/tom-holland.webp"
   },
+  "Top 100 of the 21st Century": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/top-100-of-the-21st-century.webp"
+  },
   "Top Gun": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/top-gun.webp"
@@ -986,6 +1070,10 @@
   "Wes Anderson": {
     "heroBackdropMode": "static",
     "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/wes-anderson.webp"
+  },
+  "When You Need to Feel Something": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/when-you-need-to-feel-something.webp"
   },
   "Zendaya": {
     "heroBackdropMode": "static",
