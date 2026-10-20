@@ -324,12 +324,43 @@ def write_webp(paths, out_path: Path) -> bool:
             log(f"    ! frame failed {p}: {exc}")
     if not frames:
         return False
-    while len(frames) < 2:
-        frames.append(frames[0].copy())
+
+    # Build a list of (image, duration_ms)
+    # Each backdrop holds for FRAME_MS, each dissolve step holds for DISSOLVE_MS
+    output_frames = []
+    durations = []
+    DISSOLVE_STEPS = 3
+    DISSOLVE_MS = 800 // DISSOLVE_STEPS  # 266ms per step
+
+    for i, frame in enumerate(frames):
+        # Hold the current backdrop
+        output_frames.append(frame.copy())
+        durations.append(FRAME_MS)
+
+        # If not the last frame, add dissolve frames toward the next
+        if i < len(frames) - 1:
+            next_frame = frames[i + 1]
+            for step in range(1, DISSOLVE_STEPS + 1):
+                alpha = step / (DISSOLVE_STEPS + 1)
+                blended = Image.blend(frame, next_frame, alpha)
+                output_frames.append(blended)
+                durations.append(DISSOLVE_MS)
+
+    # Ensure at least 2 frames (WebP requires animation)
+    if len(output_frames) < 2:
+        output_frames.append(output_frames[0].copy())
+        durations.append(FRAME_MS)
+
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    frames[0].save(
-        out_path, "WEBP", save_all=True, append_images=frames[1:],
-        duration=FRAME_MS, loop=0, quality=QUALITY, method=METHOD,
+    output_frames[0].save(
+        out_path,
+        "WEBP",
+        save_all=True,
+        append_images=output_frames[1:],
+        duration=durations,
+        loop=0,
+        quality=QUALITY,
+        method=METHOD,
     )
     return True
 

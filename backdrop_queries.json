@@ -1,5 +1,5 @@
 {
-  "For You": { "query": "Stranger Things", "type": "tv" },
+  "For You": { "query": "Marvel", "type": "collection" },
   "Trending Movies": { "query": "Dune: Part Two", "type": "movie" },
   "Trending Shows": { "query": "The Bear", "type": "tv" },
   "Latest Movies": { "query": "Oppenheimer", "type": "movie" },
