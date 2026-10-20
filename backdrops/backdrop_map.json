@@ -1,0 +1,998 @@
+{
+  "10s Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/10s-movies.webp"
+  },
+  "20th Century Studios": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/20th-century-studios.webp"
+  },
+  "A Nightmare on Elm Street": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/a-nightmare-on-elm-street.webp"
+  },
+  "A Quiet Place": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/a-quiet-place.webp"
+  },
+  "A24": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/a24.webp"
+  },
+  "AMC+": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/amc.webp"
+  },
+  "Academy Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/academy-awards.webp"
+  },
+  "Academy Awards: Best Picture": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/academy-awards-best-picture.webp"
+  },
+  "Action": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/action.webp"
+  },
+  "Adam Sandler": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/adam-sandler.webp"
+  },
+  "Adventure": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/adventure.webp"
+  },
+  "Airing Soon": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/airing-soon.webp"
+  },
+  "Alfred Hitchcock": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/alfred-hitchcock.webp"
+  },
+  "Alice in Wonderland": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/alice-in-wonderland.webp"
+  },
+  "Alien": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/alien.webp"
+  },
+  "American Pie": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/american-pie.webp"
+  },
+  "Angelina Jolie": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/angelina-jolie.webp"
+  },
+  "Animation": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/animation.webp"
+  },
+  "Anime": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/anime.webp"
+  },
+  "Anne Hathaway": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/anne-hathaway.webp"
+  },
+  "Apple TV": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/apple-tv.webp"
+  },
+  "Are You Afraid of the Dark?": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/are-you-afraid-of-the-dark.webp"
+  },
+  "Arnold Schwarzenegger": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/arnold-schwarzenegger.webp"
+  },
+  "Austria": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/austria.webp"
+  },
+  "Avatar": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/avatar.webp"
+  },
+  "BAFTA Film Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/bafta-film-awards.webp"
+  },
+  "Back to the Future": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/back-to-the-future.webp"
+  },
+  "Bad Boys": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/bad-boys.webp"
+  },
+  "Ben Stiller": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/ben-stiller.webp"
+  },
+  "Benedict Cumberbatch": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/benedict-cumberbatch.webp"
+  },
+  "Berlin International Film Festival Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/berlin-international-film-festival-awards.webp"
+  },
+  "Bill Murray": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/bill-murray.webp"
+  },
+  "Blair Witch": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/blair-witch.webp"
+  },
+  "Bollywood": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/bollywood.webp"
+  },
+  "Brad Pitt": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/brad-pitt.webp"
+  },
+  "Brian De Palma": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/brian-de-palma.webp"
+  },
+  "Britbox": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/britbox.webp"
+  },
+  "Candyman": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/candyman.webp"
+  },
+  "Cannes Film Festival Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/cannes-film-festival-awards.webp"
+  },
+  "Channing Tatum": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/channing-tatum.webp"
+  },
+  "Christian Bale": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/christian-bale.webp"
+  },
+  "Christmas": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/christmas.webp"
+  },
+  "Christopher Nolan": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/christopher-nolan.webp"
+  },
+  "Chuck Norris": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/chuck-norris.webp"
+  },
+  "Chucky": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/chucky.webp"
+  },
+  "Clint Eastwood": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/clint-eastwood.webp"
+  },
+  "Columbia Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/columbia-pictures.webp"
+  },
+  "Comedy": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/comedy.webp"
+  },
+  "Crime": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/crime.webp"
+  },
+  "Crunchyroll": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/crunchyroll.webp"
+  },
+  "Curiosity Stream": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/curiosity-stream.webp"
+  },
+  "DC Extended Universe": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dc-extended-universe.webp"
+  },
+  "Daniel Craig": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/daniel-craig.webp"
+  },
+  "David Fincher": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/david-fincher.webp"
+  },
+  "David Lynch": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/david-lynch.webp"
+  },
+  "Deadpool": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/deadpool.webp"
+  },
+  "Denis Villeneuve": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/denis-villeneuve.webp"
+  },
+  "Denzel Washington": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/denzel-washington.webp"
+  },
+  "Despicable Me": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/despicable-me.webp"
+  },
+  "Dexter": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dexter.webp"
+  },
+  "Die Hard": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/die-hard.webp"
+  },
+  "Discovery+": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/discovery.webp"
+  },
+  "Disney+": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/disney.webp"
+  },
+  "Documentary": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/documentary.webp"
+  },
+  "Drama": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/drama.webp"
+  },
+  "DreamWorks Animation": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dreamworks-animation.webp"
+  },
+  "Dune": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dune.webp"
+  },
+  "Dwayne Johnson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/dwayne-johnson.webp"
+  },
+  "Emma Stone": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/emma-stone.webp"
+  },
+  "Family": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/family.webp"
+  },
+  "Fantasy / Sci-Fi": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/fantasy-sci-fi.webp"
+  },
+  "Fast & Furious": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/fast-furious.webp"
+  },
+  "Final Destination": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/final-destination.webp"
+  },
+  "Florence Pugh": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/florence-pugh.webp"
+  },
+  "For You": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/for-you.webp"
+  },
+  "Francis Ford Coppola": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/francis-ford-coppola.webp"
+  },
+  "Friday the 13th": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/friday-the-13th.webp"
+  },
+  "Frozen": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/frozen.webp"
+  },
+  "George Clooney": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/george-clooney.webp"
+  },
+  "Ghostbusters": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/ghostbusters.webp"
+  },
+  "Golden Globe Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/golden-globe-awards.webp"
+  },
+  "Gremlins": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/gremlins.webp"
+  },
+  "Greta Gerwig": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/greta-gerwig.webp"
+  },
+  "Guardians of the Galaxy": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/guardians-of-the-galaxy.webp"
+  },
+  "Guillermo del Toro": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/guillermo-del-toro.webp"
+  },
+  "HBO Max": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/hbo-max.webp"
+  },
+  "Halloween": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/halloween.webp"
+  },
+  "Hannibal Lecter": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/hannibal-lecter.webp"
+  },
+  "Happy Death Day": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/happy-death-day.webp"
+  },
+  "Harrison Ford": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/harrison-ford.webp"
+  },
+  "Harry Potter": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/harry-potter.webp"
+  },
+  "Herbie": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/herbie.webp"
+  },
+  "History": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/history.webp"
+  },
+  "Horror": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/horror.webp"
+  },
+  "Hulu": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/hulu.webp"
+  },
+  "IMDb Top Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/imdb-top-movies.webp"
+  },
+  "IMDb Top Shows": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/imdb-top-shows.webp"
+  },
+  "Ice Age": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/ice-age.webp"
+  },
+  "Illumination": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/illumination.webp"
+  },
+  "Indiana Jones": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/indiana-jones.webp"
+  },
+  "Insidious": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/insidious.webp"
+  },
+  "Iron Man": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/iron-man.webp"
+  },
+  "It": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/it.webp"
+  },
+  "Jack Black": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jack-black.webp"
+  },
+  "Jackie Chan": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jackie-chan.webp"
+  },
+  "Jake Gyllenhaal": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jake-gyllenhaal.webp"
+  },
+  "James Bond": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/james-bond.webp"
+  },
+  "James Cameron": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/james-cameron.webp"
+  },
+  "Jason Statham": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jason-statham.webp"
+  },
+  "Jenna Ortega": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jenna-ortega.webp"
+  },
+  "Jennifer Aniston": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jennifer-aniston.webp"
+  },
+  "Jennifer Lawrence": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jennifer-lawrence.webp"
+  },
+  "Jim Carrey": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jim-carrey.webp"
+  },
+  "John Carpenter": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/john-carpenter.webp"
+  },
+  "John Wick": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/john-wick.webp"
+  },
+  "Johnny Depp": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/johnny-depp.webp"
+  },
+  "Johnny English": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/johnny-english.webp"
+  },
+  "Jonah Hill": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jonah-hill.webp"
+  },
+  "Julia Roberts": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/julia-roberts.webp"
+  },
+  "Jumanji": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jumanji.webp"
+  },
+  "Jurassic World": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/jurassic-world.webp"
+  },
+  "KDrama": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/kdrama.webp"
+  },
+  "Katherine Heigl": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/katherine-heigl.webp"
+  },
+  "Kung Fu Panda": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/kung-fu-panda.webp"
+  },
+  "Latest Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/latest-movies.webp"
+  },
+  "Latest Shows": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/latest-shows.webp"
+  },
+  "Leonardo DiCaprio": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/leonardo-dicaprio.webp"
+  },
+  "Lily Collins": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/lily-collins.webp"
+  },
+  "Lionsgate": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/lionsgate.webp"
+  },
+  "Lucasfilm": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/lucasfilm.webp"
+  },
+  "MUBI": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mubi.webp"
+  },
+  "Mad Max": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mad-max.webp"
+  },
+  "Madagascar": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/madagascar.webp"
+  },
+  "MagellanTV": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/magellantv.webp"
+  },
+  "Margot Robbie": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/margot-robbie.webp"
+  },
+  "Martin Scorsese": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/martin-scorsese.webp"
+  },
+  "Marvel Cinematic Universe": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/marvel-cinematic-universe.webp"
+  },
+  "Marvel Studios": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/marvel-studios.webp"
+  },
+  "Matt Damon": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/matt-damon.webp"
+  },
+  "Matthew McConaughey": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/matthew-mcconaughey.webp"
+  },
+  "Melissa McCarthy": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/melissa-mccarthy.webp"
+  },
+  "Men In Black": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/men-in-black.webp"
+  },
+  "Meryl Streep": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/meryl-streep.webp"
+  },
+  "Metro-Goldwyn-Mayer": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/metro-goldwyn-mayer.webp"
+  },
+  "Michael \u201eBully\u201c Herbig": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/michael-bully-herbig.webp"
+  },
+  "Mila Kunis": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mila-kunis.webp"
+  },
+  "Millie Bobby Brown": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/millie-bobby-brown.webp"
+  },
+  "Miramax": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/miramax.webp"
+  },
+  "Mission: Impossible": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mission-impossible.webp"
+  },
+  "Morgan Freeman": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/morgan-freeman.webp"
+  },
+  "Murder Mystery": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/murder-mystery.webp"
+  },
+  "Musical": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/musical.webp"
+  },
+  "Mystery": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/mystery.webp"
+  },
+  "Netflix": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/netflix.webp"
+  },
+  "Netflix Kids": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/netflix-kids.webp"
+  },
+  "New Line Cinema": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/new-line-cinema.webp"
+  },
+  "Nicolas Cage": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/nicolas-cage.webp"
+  },
+  "Nicole Kidman": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/nicole-kidman.webp"
+  },
+  "Night at the Museum": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/night-at-the-museum.webp"
+  },
+  "Now You See Me": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/now-you-see-me.webp"
+  },
+  "Owen Wilson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/owen-wilson.webp"
+  },
+  "Paramount Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/paramount-pictures.webp"
+  },
+  "Paramount+": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/paramount.webp"
+  },
+  "Paranormal Activity": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/paranormal-activity.webp"
+  },
+  "Paul Thomas Anderson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/paul-thomas-anderson.webp"
+  },
+  "Peacock": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/peacock.webp"
+  },
+  "Peter Jackson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/peter-jackson.webp"
+  },
+  "Pirates of the Caribbean": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/pirates-of-the-caribbean.webp"
+  },
+  "Pitch Perfect": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/pitch-perfect.webp"
+  },
+  "Pixar Animation Studios": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/pixar-animation-studios.webp"
+  },
+  "Planet of the Apes": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/planet-of-the-apes.webp"
+  },
+  "Police Academy": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/police-academy.webp"
+  },
+  "Prime Video": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/prime-video.webp"
+  },
+  "Primetime Emmy Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/primetime-emmy-awards.webp"
+  },
+  "Psycho": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/psycho.webp"
+  },
+  "Quarantine": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/quarantine.webp"
+  },
+  "Quentin Tarantino": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/quentin-tarantino.webp"
+  },
+  "Rambo": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/rambo.webp"
+  },
+  "Reality TV": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/reality-tv.webp"
+  },
+  "Reese Witherspoon": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/reese-witherspoon.webp"
+  },
+  "Resident Evil": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/resident-evil.webp"
+  },
+  "Ridley Scott": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/ridley-scott.webp"
+  },
+  "Robert Downey Jr.": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/robert-downey-jr.webp"
+  },
+  "Robin Williams": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/robin-williams.webp"
+  },
+  "Rocky": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/rocky.webp"
+  },
+  "Romance": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/romance.webp"
+  },
+  "Ryan Reynolds": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/ryan-reynolds.webp"
+  },
+  "STARZ": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/starz.webp"
+  },
+  "Samuel L. Jackson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/samuel-l-jackson.webp"
+  },
+  "Sandra Bullock": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/sandra-bullock.webp"
+  },
+  "Saw": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/saw.webp"
+  },
+  "Scary Movie": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/scary-movie.webp"
+  },
+  "Scream": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/scream.webp"
+  },
+  "Searchlight Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/searchlight-pictures.webp"
+  },
+  "Seth Rogen": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/seth-rogen.webp"
+  },
+  "Shudder": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/shudder.webp"
+  },
+  "Silent Hill": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/silent-hill.webp"
+  },
+  "Sing": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/sing.webp"
+  },
+  "Spike Lee": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/spike-lee.webp"
+  },
+  "Stand-Up Comedy": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/stand-up-comedy.webp"
+  },
+  "Stanley Kubrick": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/stanley-kubrick.webp"
+  },
+  "Star Trek": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/star-trek.webp"
+  },
+  "Star Wars Universe": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/star-wars-universe.webp"
+  },
+  "Steve Carell": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/steve-carell.webp"
+  },
+  "Steven Spielberg": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/steven-spielberg.webp"
+  },
+  "Studio Ghibli": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/studio-ghibli.webp"
+  },
+  "Sydney Sweeney": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/sydney-sweeney.webp"
+  },
+  "Sylvester Stallone": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/sylvester-stallone.webp"
+  },
+  "Tales of the Heart": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/tales-of-the-heart.webp"
+  },
+  "Terminator": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/terminator.webp"
+  },
+  "Terrifier": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/terrifier.webp"
+  },
+  "The Avengers": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-avengers.webp"
+  },
+  "The Bourne": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-bourne.webp"
+  },
+  "The Criterion Channel": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-criterion-channel.webp"
+  },
+  "The Dark Knight": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-dark-knight.webp"
+  },
+  "The Exorcist": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-exorcist.webp"
+  },
+  "The Expendables": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-expendables.webp"
+  },
+  "The Godfather": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-godfather.webp"
+  },
+  "The Hangover": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-hangover.webp"
+  },
+  "The Hunger Games": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-hunger-games.webp"
+  },
+  "The Karate Kid": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-karate-kid.webp"
+  },
+  "The Last Airbender": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-last-airbender.webp"
+  },
+  "The Lion King": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-lion-king.webp"
+  },
+  "The Lord of the Rings": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-lord-of-the-rings.webp"
+  },
+  "The Matrix": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-matrix.webp"
+  },
+  "The Naked Gun": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-naked-gun.webp"
+  },
+  "The Purge": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-purge.webp"
+  },
+  "The Ring": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-ring.webp"
+  },
+  "The Shining": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-shining.webp"
+  },
+  "The World of Attenborough": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/the-world-of-attenborough.webp"
+  },
+  "Thriller": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/thriller.webp"
+  },
+  "Timoth\u00e9e Chalamet": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/timothee-chalamet.webp"
+  },
+  "Tom Cruise": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/tom-cruise.webp"
+  },
+  "Tom Holland": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/tom-holland.webp"
+  },
+  "Top Gun": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/top-gun.webp"
+  },
+  "Touchstone Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/touchstone-pictures.webp"
+  },
+  "Transformers": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/transformers.webp"
+  },
+  "Trending Movies": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/trending-movies.webp"
+  },
+  "Trending Shows": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/trending-shows.webp"
+  },
+  "TriStar Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/tristar-pictures.webp"
+  },
+  "Universal Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/universal-pictures.webp"
+  },
+  "Upcoming": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/upcoming.webp"
+  },
+  "Venice Film Festival Awards": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/venice-film-festival-awards.webp"
+  },
+  "Walt Disney Animation Studio": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/walt-disney-animation-studio.webp"
+  },
+  "War": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/war.webp"
+  },
+  "Warner Bros. Pictures": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/warner-bros-pictures.webp"
+  },
+  "Wes Anderson": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/wes-anderson.webp"
+  },
+  "Zendaya": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/zendaya.webp"
+  },
+  "xXx": {
+    "heroBackdropMode": "static",
+    "heroBackdropUrl": "https://raw.githubusercontent.com/Arturo-Laurel/nuvio-backdrops/main/backdrops/xxx.webp"
+  }
+}
