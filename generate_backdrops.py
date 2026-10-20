@@ -34,8 +34,13 @@ MAX_FRAMES = 6
 QUALITY = 78
 METHOD = 4
 FOLDER_KEYS = {"folders"}
+MDBLIST_PACE = 1.5
 
 SESSION = requests.Session()
+
+_auth_failed = False
+_quota_exhausted = False
+_last_mdblist_call = 0.0
 
 
 def log(msg: str) -> None:
@@ -82,7 +87,6 @@ def backdrop_paths_for(api_key: str, kind: str, tmdb_id: int):
 
 
 def find_backdrops(api_key: str, query: str, preferred=None, want=MAX_FRAMES):
-    """Search-based fallback: backdrops from ONE title."""
     kinds = [preferred] if preferred in ("collection", "movie", "tv") else ["collection", "movie", "tv"]
     for kind in kinds:
         try:
@@ -115,7 +119,6 @@ def find_backdrops(api_key: str, query: str, preferred=None, want=MAX_FRAMES):
 
 
 def find_person_backdrops(api_key: str, query: str, want: int):
-    """TMDB person search -> combined credits -> one backdrop per top title."""
     if want <= 0:
         return [], None
     try:
@@ -159,14 +162,12 @@ def find_person_backdrops(api_key: str, query: str, want: int):
 
 
 def extract_mdblist_ids(folder):
-    """Return [(list_id, media_type), ...] from a folder's sources."""
     out = []
     for src in (folder.get("sources") or []) + (folder.get("nativeSources") or []):
         cid = (src.get("catalogId") or "").strip()
         m = re.match(r"^mdblist\.(\d+)$", cid)
         if m:
             out.append((int(m.group(1)), src.get("type", "movie")))
-    # de-dup while preserving order
     seen, uniq = set(), []
     for pair in out:
         if pair not in seen:
@@ -176,44 +177,70 @@ def extract_mdblist_ids(folder):
 
 
 def fetch_mdblist_items(mdblist_key: str, list_id: int, limit: int = 30):
-    url = f"{MDBLIST_API}/lists/{list_id}/items"
-    try:
-        r = SESSION.get(url, params={"apikey": mdblist_key, "limit": limit}, timeout=30)
-        if r.status_code in (401, 403):
-            log(f"    ! MDBList {list_id} {r.status_code} (bad key?)")
-            return []
-        if r.status_code == 404:
-            log(f"    ! MDBList {list_id} 404 (list missing or private)")
-            return []
-        r.raise_for_status()
-        data = r.json()
-        items = []
-        for m in (data.get("movies") or []):
-            items.append({"movie": m})
-        for s in (data.get("shows") or []):
-            items.append({"show": s})
-        return items
-    except requests.RequestException as exc:
-        log(f"    ! MDBList {list_id} failed: {exc}")
-        return []
+    global _auth_failed, _quota_exhausted, _last_mdblist_call
+    if _auth_failed or _quota_exhausted:
+        return [], "quota_exhausted"
 
+    now = time.time()
+    elapsed = now - _last_mdblist_call
+    if elapsed < MDBLIST_PACE:
+        time.sleep(MDBLIST_PACE - elapsed)
+    _last_mdblist_call = time.time()
+
+    url = f"{MDBLIST_API}/lists/{list_id}/items"
+    for attempt in range(5):
+        try:
+            r = SESSION.get(url, params={"apikey": mdblist_key, "limit": limit}, timeout=60)
+            if r.status_code in (401, 403):
+                _auth_failed = True
+                log(f"    ! MDBList {list_id} {r.status_code} (bad key — aborting MDBList)")
+                return [], "auth_error"
+            if r.status_code == 404:
+                log(f"    ! MDBList {list_id} 404 (list missing or private)")
+                return [], "not_found"
+            if r.status_code == 429:
+                retry_after = int(r.headers.get("Retry-After", "15"))
+                if retry_after > 300:
+                    _quota_exhausted = True
+                    log(f"    ! MDBList quota exhausted (reset in ~{retry_after/3600:.1f}h) — aborting MDBList for this run")
+                    return [], "quota_exhausted"
+                log(f"    ! MDBList {list_id} 429, sleeping {retry_after}s (attempt {attempt+1}/5)")
+                time.sleep(retry_after)
+                continue
+            if r.status_code >= 500:
+                time.sleep(2 ** attempt)
+                continue
+            r.raise_for_status()
+            data = r.json()
+            items = [{"movie": m} for m in (data.get("movies") or [])]
+            items += [{"show": s} for s in (data.get("shows") or [])]
+            return items, "ok"
+        except requests.RequestException as exc:
+            log(f"    ! MDBList {list_id} attempt {attempt+1}/5: {exc}")
+            time.sleep(3 * (attempt + 1))
+    return [], "rate_limited"
 
 def backdrops_from_contents(api_key: str, mdblist_key: str, folder: dict, want=MAX_FRAMES):
-    """Carousel from actual folder contents: one backdrop per title, up to `want` titles."""
     if not mdblist_key:
-        return [], None
+        return [], None, "no_key"
     mdblists = extract_mdblist_ids(folder)
     if not mdblists:
-        return [], None
+        return [], None, "no_mdblist"
 
     backdrops = []
     seen_titles = set()
     used_lists = []
+    had_success = False
+    had_failure = False
 
     for list_id, _ in mdblists:
         if len(backdrops) >= want:
             break
-        items = fetch_mdblist_items(mdblist_key, list_id, limit=want * 4)
+        items, status = fetch_mdblist_items(mdblist_key, list_id, limit=want * 4)
+        if status == "ok":
+            had_success = True
+        elif status in ("timeout", "auth_error", "rate_limited", "quota_exhausted"):
+            had_failure = True
         if not items:
             continue
         used_lists.append(list_id)
@@ -241,15 +268,18 @@ def backdrops_from_contents(api_key: str, mdblist_key: str, folder: dict, want=M
                 backdrops.append(paths[0])
 
     if backdrops:
-        return backdrops, f"contents:{','.join(str(i) for i in used_lists)}"
-    return [], None
+        return backdrops, f"contents:{','.join(str(i) for i in used_lists)}", "ok"
+    if had_failure and not had_success:
+        return [], None, "mdblist_failed"
+    return [], None, "empty"
 
 
 def find_backdrops_for_folder(api_key: str, mdblist_key: str, folder: dict, query: str, preferred):
-    # 1. MDBList contents (carousel from actual folder)
-    paths, source = backdrops_from_contents(api_key, mdblist_key, folder)
+    paths, source, status = backdrops_from_contents(api_key, mdblist_key, folder)
 
-    # 2. Top off via person lookup (handles actor folders + short lists)
+    if status == "mdblist_failed":
+        return [], None, "retry"
+
     if len(paths) < MAX_FRAMES:
         extra, extra_src = find_person_backdrops(api_key, query, MAX_FRAMES - len(paths))
         if extra:
@@ -257,11 +287,10 @@ def find_backdrops_for_folder(api_key: str, mdblist_key: str, folder: dict, quer
             source = (source + "+" if source else "") + (extra_src or "")
 
     if len(paths) >= MAX_FRAMES:
-        return paths[:MAX_FRAMES], source
+        return paths[:MAX_FRAMES], source, "ok"
     if paths:
-        return paths, source
+        return paths, source, "ok"
 
-    # 3. Explicit tmdb.collection.NNNN
     for src in (folder.get("sources") or []) + (folder.get("nativeSources") or []):
         cid = (src.get("catalogId") or "").strip()
         m = re.match(r"^tmdb\.collection\.(\d+)$", cid)
@@ -270,13 +299,14 @@ def find_backdrops_for_folder(api_key: str, mdblist_key: str, folder: dict, quer
             try:
                 coll_paths = backdrop_paths_for(api_key, "collection", coll_id)
                 if coll_paths:
-                    return coll_paths[:MAX_FRAMES], f"collection:{coll_id}"
+                    return coll_paths[:MAX_FRAMES], f"collection:{coll_id}", "ok"
             except requests.RequestException as exc:
                 log(f"    ! tmdb collection {coll_id} failed: {exc}")
             break
 
-    # 4. Search fallback
-    return find_backdrops(api_key, query, preferred)
+    paths, source = find_backdrops(api_key, query, preferred)
+    return paths, source, "ok"
+
 
 def download_frame(path: str) -> Image.Image:
     r = SESSION.get(TMDB_IMG + path, timeout=60)
@@ -332,7 +362,6 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
         spec = args.overrides.get(title, {})
         query = (spec.get("query") or title).strip()
         preferred = spec.get("type")
-        # Slug is now based on the FOLDER, not the query — each folder gets its own carousel
         slug = slugify(title)
         if prefix:
             slug = f"{path.stem}-{slug}"
@@ -340,7 +369,12 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
         out_file = args.output_dir / f"{slug}.webp"
         log(f"  - {title!r}")
 
-        paths, source = find_backdrops_for_folder(api_key, mdblist_key, folder, query, preferred)
+        paths, source, status = find_backdrops_for_folder(api_key, mdblist_key, folder, query, preferred)
+
+        if status == "retry":
+            log("    ! MDBList unreachable for this folder — skipping to retry next run")
+            continue
+
         if not paths:
             log("    ! no backdrops found; leaving folder unchanged")
             continue
