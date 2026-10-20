@@ -315,38 +315,51 @@ def download_frame(path: str) -> Image.Image:
     return ImageOps.fit(im, SIZE, method=Image.Resampling.LANCZOS)
 
 
-def write_webp(paths, out_path: Path) -> bool:
+def make_ken_burns_frames(img, n_frames=20, zoom_end=1.12):
+    """Slow continuous zoom-in. Each frame differs by <1% zoom so adjacent
+    frames are visually indistinguishable — no stutter on any decoder."""
+    target_w, target_h = SIZE
+    big = img.resize(
+        (int(target_w * zoom_end), int(target_h * zoom_end)),
+        Image.Resampling.LANCZOS,
+    )
+    bw, bh = big.size
     frames = []
+    for i in range(n_frames):
+        t = i / (n_frames - 1) if n_frames > 1 else 0.0
+        zoom = 1.0 + (zoom_end - 1.0) * t
+        crop_w = int(bw / zoom)
+        crop_h = int(bh / zoom)
+        cx, cy = bw // 2, bh // 2
+        left = cx - crop_w // 2
+        top = cy - crop_h // 2
+        crop = big.crop((left, top, left + crop_w, top + crop_h))
+        frames.append(crop.resize((target_w, target_h), Image.Resampling.LANCZOS))
+    return frames
+
+
+def write_webp(paths, out_path: Path) -> bool:
+    source_frames = []
     for p in paths[:MAX_FRAMES]:
         try:
-            frames.append(download_frame(p))
+            source_frames.append(download_frame(p))
         except Exception as exc:
             log(f"    ! frame failed {p}: {exc}")
-    if not frames:
+    if not source_frames:
         return False
 
-    # Build a list of (image, duration_ms)
-    # Each backdrop holds for FRAME_MS, each dissolve step holds for DISSOLVE_MS
+    KEN_BURNS_FRAMES = 20
+    KEN_BURNS_MS = FRAME_MS // KEN_BURNS_FRAMES
+    ZOOM_END = 1.12
+
     output_frames = []
     durations = []
-    DISSOLVE_STEPS = 3
-    DISSOLVE_MS = 800 // DISSOLVE_STEPS  # 266ms per step
+    for source in source_frames:
+        kb = make_ken_burns_frames(source, n_frames=KEN_BURNS_FRAMES, zoom_end=ZOOM_END)
+        for f in kb:
+            output_frames.append(f)
+            durations.append(KEN_BURNS_MS)
 
-    for i, frame in enumerate(frames):
-        # Hold the current backdrop
-        output_frames.append(frame.copy())
-        durations.append(FRAME_MS)
-
-        # If not the last frame, add dissolve frames toward the next
-        if i < len(frames) - 1:
-            next_frame = frames[i + 1]
-            for step in range(1, DISSOLVE_STEPS + 1):
-                alpha = step / (DISSOLVE_STEPS + 1)
-                blended = Image.blend(frame, next_frame, alpha)
-                output_frames.append(blended)
-                durations.append(DISSOLVE_MS)
-
-    # Ensure at least 2 frames (WebP requires animation)
     if len(output_frames) < 2:
         output_frames.append(output_frames[0].copy())
         durations.append(FRAME_MS)
@@ -428,7 +441,7 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
             continue
 
         digest = hashlib.sha256(
-            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}|x3").encode("utf-8")
+            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}|x5").encode("utf-8")
         ).hexdigest()
         entry = manifest["items"].get(slug, {})
 
