@@ -390,6 +390,23 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
         title = folder["title"].strip()
         if idx % 10 == 0:
             log(f"  [{idx+1}/{len(folders)}]")
+        # Alias resolution: point at another folder's webp instead of generating
+        if title in args.aliases:
+            target = args.aliases[title].strip()
+            seen = set()
+            while target in args.aliases and target not in seen:
+                seen.add(target)
+                target = args.aliases[target].strip()
+            target_slug = slugify(target)
+            if prefix:
+                target_slug = f"{path.stem}-{target_slug}"
+            target_name = f"{target_slug}.webp"
+            mapping[title] = {
+                "heroBackdropUrl": f"{base_url.rstrip('/')}/{target_name}",
+                "heroBackdropMode": "static",
+            }
+            log(f"  - {title!r} -> aliased to {target!r} ({target_name})")
+            continue
         spec = args.overrides.get(title, {})
         query = (spec.get("query") or title).strip()
         preferred = spec.get("type")
@@ -454,6 +471,7 @@ def main() -> None:
     ap.add_argument("--output-dir", type=Path, default=Path("backdrops"))
     ap.add_argument("--base-url", default=os.environ.get("RAW_BASE_URL", ""))
     ap.add_argument("--overrides", type=Path, default=Path("backdrop_queries.json"))
+    ap.add_argument("--aliases", type=Path, default=Path("backdrop_aliases.json"))
     ap.add_argument("--manifest", type=Path, default=Path("backdrops/manifest.json"))
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
@@ -479,6 +497,11 @@ def main() -> None:
     if args.overrides.exists():
         overrides = json.loads(args.overrides.read_text(encoding="utf-8-sig"))
     args.overrides = overrides
+
+    aliases = {}
+    if args.aliases.exists():
+        aliases = json.loads(args.aliases.read_text(encoding="utf-8-sig"))
+    args.aliases = aliases
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     manifest = {"items": {}}
