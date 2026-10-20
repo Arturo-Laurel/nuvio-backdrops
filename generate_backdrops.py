@@ -34,7 +34,7 @@ MAX_FRAMES = 6
 QUALITY = 78
 METHOD = 4
 FOLDER_KEYS = {"folders"}
-MDBLIST_PACE = 1.5
+MDBLIST_PACE = 0.3
 
 SESSION = requests.Session()
 
