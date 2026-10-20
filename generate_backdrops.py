@@ -428,7 +428,7 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
             continue
 
         digest = hashlib.sha256(
-            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}").encode("utf-8")
+            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}|x3").encode("utf-8")
         ).hexdigest()
         entry = manifest["items"].get(slug, {})
 
