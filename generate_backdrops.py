@@ -339,38 +339,25 @@ def make_ken_burns_frames(img, n_frames=20, zoom_end=1.12):
 
 
 def write_webp(paths, out_path: Path) -> bool:
-    source_frames = []
+    frames = []
     for p in paths[:MAX_FRAMES]:
         try:
-            source_frames.append(download_frame(p))
+            frames.append(download_frame(p))
         except Exception as exc:
             log(f"    ! frame failed {p}: {exc}")
-    if not source_frames:
+    if not frames:
         return False
 
-    KEN_BURNS_FRAMES = 20
-    KEN_BURNS_MS = FRAME_MS // KEN_BURNS_FRAMES
-    ZOOM_END = 1.12
-
-    output_frames = []
-    durations = []
-    for source in source_frames:
-        kb = make_ken_burns_frames(source, n_frames=KEN_BURNS_FRAMES, zoom_end=ZOOM_END)
-        for f in kb:
-            output_frames.append(f)
-            durations.append(KEN_BURNS_MS)
-
-    if len(output_frames) < 2:
-        output_frames.append(output_frames[0].copy())
-        durations.append(FRAME_MS)
+    while len(frames) < 2:
+        frames.append(frames[0].copy())
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    output_frames[0].save(
+    frames[0].save(
         out_path,
         "WEBP",
         save_all=True,
-        append_images=output_frames[1:],
-        duration=durations,
+        append_images=frames[1:],
+        duration=FRAME_MS,
         loop=0,
         quality=QUALITY,
         method=METHOD,
@@ -441,7 +428,7 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
             continue
 
         digest = hashlib.sha256(
-            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}|x5").encode("utf-8")
+            ("|".join(paths) + f"|{SIZE}|{FRAME_MS}|{QUALITY}").encode("utf-8")
         ).hexdigest()
         entry = manifest["items"].get(slug, {})
 
