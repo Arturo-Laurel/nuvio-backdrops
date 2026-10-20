@@ -179,14 +179,20 @@ def fetch_mdblist_items(mdblist_key: str, list_id: int, limit: int = 30):
     url = f"{MDBLIST_API}/lists/{list_id}/items"
     try:
         r = SESSION.get(url, params={"apikey": mdblist_key, "limit": limit}, timeout=30)
-        if r.status_code == 401:
-            log(f"    ! MDBList {list_id} 401 Unauthorized (bad key?)")
+        if r.status_code in (401, 403):
+            log(f"    ! MDBList {list_id} {r.status_code} (bad key?)")
             return []
         if r.status_code == 404:
             log(f"    ! MDBList {list_id} 404 (list missing or private)")
             return []
         r.raise_for_status()
-        return r.json().get("items") or []
+        data = r.json()
+        items = []
+        for m in (data.get("movies") or []):
+            items.append({"movie": m})
+        for s in (data.get("shows") or []):
+            items.append({"show": s})
+        return items
     except requests.RequestException as exc:
         log(f"    ! MDBList {list_id} failed: {exc}")
         return []
@@ -347,7 +353,7 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
         if entry.get("hash") == digest and out_file.exists() and not args.force:
             log(f"    = cached {out_file.name}")
         elif args.dry_run:
-            log(f"    ~ dry-run would write {out_file.name} ({len(paths)} frames)")
+            log(f"    ~ dry-run would write {out_file.name} ({len(paths)} frames, source: {source})")
         else:
             if not write_webp(paths, out_file):
                 log("    ! failed to write WebP")
@@ -355,7 +361,7 @@ def process_file(path: Path, args, api_key: str, mdblist_key: str, base_url: str
             manifest["items"][slug] = {
                 "hash": digest, "file": out_file.name, "source": source, "paths": paths,
             }
-            log(f"    + wrote {out_file.name} ({out_file.stat().st_size // 1024} KB, {len(paths)} frames)")
+            log(f"    + wrote {out_file.name} ({out_file.stat().st_size // 1024} KB, {len(paths)} frames, source: {source})")
 
         mapping[title] = {
             "heroBackdropUrl": f"{base_url.rstrip('/')}/{out_file.name}",
