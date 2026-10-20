@@ -29,7 +29,7 @@ TMDB_IMG = "https://image.tmdb.org/t/p/w1280"
 MDBLIST_API = "https://api.mdblist.com"
 
 SIZE = (1280, 720)
-FRAME_MS = 5000
+FRAME_MS = 7000
 MAX_FRAMES = 6
 QUALITY = 78
 METHOD = 4
